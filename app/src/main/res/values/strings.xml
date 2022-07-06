@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">ID Cards</string>
+    <string name="meet_general_mental_therapist"><u>Meet general mental therapist</u></string>
+    <string name="meet_addiction_therapist"><u>Meet addiction therapist</u></string>
+    <string name="meet_physical_therapist"><u>Meet physical therapist</u></string>
+    <string name="meet_divorce_therapist"><u>Meet divorce therapist</u></string>
+    <string name="type"><u>Type here</u></string>
+    <string name="safety"><![CDATA[
+        <h3>Tips for Living With Depression </h3><br />
+        <ol>
+            <li>
+                <h5>Build a Support Network </h5>
+                <p>One of the most important things you can do to help yourself with depression—other
+                    than medication and therapy—is to develop strong social support.</p>
+            </li>
+            <li>
+                <h5>Reduce Your Stress </h5>
+                <p>If you or a loved one are struggling with depression,
+                    contact the Substance Abuse and Mental Health Services Administration (SAMHSA)
+                    National Helpline at 1-800-662-4357 for information on support and
+                    treatment facilities in your area. </p>
+            </li>
+             <li>
+                <h5>Improve Your Sleep Hygiene</h5>
+                <p><i>Good sleep hygiene could be key to improving the quality and quantity of your sleep.</i>
+                 Turn off electronics at least an hour before you go to bed. Use dim light to read a
+                    book or engage in another relaxing activity.
+                    Only use your bed for sleep and sexual activity. Doing work in bed, or even in your bedroom,
+                    can cause you to associate your bed with stress, rather than relaxation.
+                </p>
+            </li>
+            <li>
+                <h5>Improve Your Eating Habits</h5>
+                <p><i>Improving your diet could be key to reducing your symptoms.</i>
+                 But before you make any major changes to your diet or begin taking
+                    vitamins or supplements, talk with your physician.
+                </p>
+            </li>
+            <li>
+                <h5>Learn How to Stop Negative Thoughts</h5>
+                <p>Depression doesn\'t just make you feel bad, it can also cause you to think more negatively.
+                    Changing those negative thoughts, however, can improve your mood.
+                </p>
+            </li>
+             <li>
+                <h5>Beat Procrastination </h5>
+                <p>Putting things off fuels depression. It can lead to increased guilt, worry, and stress.
+                </p>
+            </li>
+        </ol>
+]]>
+    </string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="get_password_link"> Password Link</string>
+    <string name="email_hint"> EMAIL</string>
+    <string name="back"> BACK</string>
+    <string name="logout"> LOG OUT</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_2022_all_rights_are_reserved">© 2022 All Rights Are Reserved</string>
+
+    <string-array name="planets_spinner">
+        <item>COUNTY</item><item>Baringo</item><item>Bomet</item><item>Bungoma</item><item>Busia</item><item>Elgeyo Marakwet</item>
+        <item>Embu</item><item>Garissa</item><item>Homa Bay</item><item>Isiolo</item><item>Kajiado</item><item>Kakamega</item><item>Kericho</item>
+        <item>Kiambu</item><item>Kilifi</item><item>Kirinyaga</item><item>Kisii</item><item>Kisumu</item><item>Kitui</item>
+        <item>Kwale</item><item>Laikipia</item><item>Lamu</item><item>Machakos</item><item>Makueni</item><item>Mandera</item>
+        <item>Meru</item><item>Migori</item><item>Marsabit</item><item>Mombasa</item><item>Muranga</item><item>Nairobi</item><item>Nakuru</item><item>Nandi</item>
+        <item>Narok</item><item>Nyamira</item><item>Nyandarua</item><item>Nyeri</item><item>Samburu</item>
+        <item>Siaya</item><item>Taita Taveta</item><item>Tana River</item><item>Tharaka Nithi</item><item>Trans Nzoia</item><item>Turkana</item>
+        <item>Uasin Gishu</item><item>Vihiga</item><item>Wajir</item><item>West Pokot County</item>
+    </string-array>
+    <string-array name="sub_counties">
+        <item>SUB COUNTY</item><item>Ainabkoi</item><item>Ainamoi </item><item>Aldai</item><item>Alego Usonga</item>
+        <item>Awendo</item><item>Bahati</item><item>Balambala</item><item>Banissa</item><item>Baringo Central</item>
+        <item>Ainabkoi</item><item>Ainamoi </item><item>Aldai</item><item>Alego Usonga</item><item>Awendo</item>
+        <item>Bahati</item><item>Balambala</item><item>Banissa</item><item>Baringo Central</item>
+        <item>Baringo North</item><item>Baringo South</item><item>Belgut</item><item>Bobasi</item><item>Bomachoge Borabu</item>
+        <item>Bomachoge Chache</item><item>Bomet Central</item><item>Bomet East</item><item>Bonchari</item><item>Bondo</item><item>Borabu</item>
+        <item>Budalangi</item><item>Bumulaoi</item><item>Bura</item><item>Bureti</item><item>Butere</item><item>Butula</item>
+
+
+
+    </string-array>
+    <string-array name="ward">
+        <item>WARD OFFICE</item><item>Ainabkoi</item><item>Ainamoi </item><item>Aldai</item><item>Alego Usonga</item>
+        <item>Awendo</item><item>Bahati</item><item>Balambala</item><item>Banissa</item><item>Baringo Central</item>
+        <item>Ainabkoi</item><item>Ainamoi </item><item>Aldai</item><item>Alego Usonga</item><item>Awendo</item>
+        <item>Bahati</item><item>Balambala</item><item>Banissa</item><item>Baringo Central</item>
+        <item>Baringo North</item><item>Baringo South</item><item>Belgut</item><item>Bobasi</item><item>Bomachoge Borabu</item>
+        <item>Bomachoge Chache</item><item>Bomet Central</item><item>Bomet East</item><item>Bonchari</item><item>Bondo</item><item>Borabu</item>
+        <item>Budalangi</item><item>Bumulaoi</item><item>Bura</item><item>Bureti</item><item>Butere</item><item>Butula</item>
+
+
+
+    </string-array>
+
+
+
+</resources>

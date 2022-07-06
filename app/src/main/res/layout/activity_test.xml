@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.BUSINESS.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#006600"
+            android:theme="@style/Theme.BUSINESS.AppBarOverlay"/>            app:subtitle="Get Informed"
+            app:subtitleTextColor="@color/white"
+            app:title="FILL IN THE REPLACEMENT FORM BELOW"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:text="ALL THE DETAILS MUST BE AUTHENTIC"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:height="25dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:height="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/red"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:height="25dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:height="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green"
+                    android:height="25dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Personal Details"
+                    android:textColor="@color/red"
+                    android:height="25dp"/>
+
+                <EditText
+                    android:id="@+id/idEt"
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:padding="10dp"
+                    android:hint="ID NUMBER"
+                    android:background="@drawable/edit_backgroud"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/certEt"
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:padding="10dp"
+                    android:hint="BIRTH CERTIFICATE No."
+                    android:background="@drawable/edit_backgroud"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:hint="DATE OF BIRTH"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/edit_backgroud"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="70dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="70dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonLoadPicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:text="SCANNED PASSPOT IMAGE" />
+                <ImageView
+                    android:id="@+id/picView"
+                    android:layout_width="70dp"
+                    android:scaleType="centerCrop"
+                    android:layout_height="70dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/loadPicture"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0"
+                    android:text="SCANNED IMAGE OF AFFIDAVIT"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Delivery Location Details"
+                    android:textColor="@color/red"
+                    android:height="25dp"
+                    android:layout_marginTop="10dp"/>
+                <Spinner
+                    android:id="@+id/planets_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/planets_spinner"
+                    android:hint="COUNTY"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/edit_backgroud"/>
+                <Spinner
+                    android:id="@+id/subCounty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/sub_counties"
+                    android:hint="COUNTY"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_backgroud"/>
+                <Spinner
+                    android:id="@+id/wardOffice"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/ward"
+                    android:hint="COUNTY"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edit_backgroud"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:id="@+id/idBtnSendData"
+                    android:background="@drawable/button_backgroud"
+                    android:layout_marginTop="30dp"
+                    android:text="REPLACE YOUR ID" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
